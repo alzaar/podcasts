@@ -1,0 +1,263 @@
+.food-img {
+  width:auto;
+  height: 100vh;
+  display: block;
+  background-size: cover;
+  background-image: url(../../images/hero_bg_1.jpg);
+  background-attachment: fixed;
+  filter: contrast(100%);
+  filter: brightness(50%);
+  opacity: 1;
+}
+.nav-button {
+  position: absolute;
+  left: 1300px;
+  bottom: 720px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  width: 107px;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.welcome-text {
+  position: absolute;
+  top: -160px;
+  opacity: 1;
+  color: white;
+  font-size: 100px;
+}
+
+.welcome-details {
+  position: relative;
+  top: -30px;
+  left: 75px;
+  opacity: 0.8;
+  color: white;
+  font-size: 20px;
+}
+
+.center-search {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 480px;
+  top: 450px;
+  opacity: 1;
+  color: white;
+}
+
+.search-option {
+  position: relative;
+  left: 75px;
+}
+
+.search-bar {
+  background: transparent;
+  color: white;
+  border: 0;
+  border-bottom: 1px solid;
+}
+
+.button-Search {
+  height: 28px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+  padding: 5px;
+  padding-top: 0px;
+}
+
+@media only screen and (width: 320px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 320px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:0px;
+    top:370px;
+  }
+  .mb-welcome-text {
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -190px;
+  }
+  .mb-welcome-details {
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+    left: 80px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 60px;
+    top: -80px
+  }
+
+}
+
+@media only screen and (width: 411px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 411px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:50px;
+    top:480px;
+  }
+  .mb-welcome-text {
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -190px;
+  }
+  .mb-welcome-details {
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+    left: 70px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 50px;
+    top: -80px
+  }
+
+}
+
+@media only screen and (width: 414px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 411px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:50px;
+    top:380px;
+  }
+  .mb-welcome-text {
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -190px;
+  }
+  .mb-welcome-details {
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+    left: 70px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 50px;
+    top: -80px
+  }
+
+}
+
+@media only screen and (device-width: 412px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 412px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:40px;
+    top:500px;
+  }
+  .mb-welcome-text {
+    font-size: 90px;
+    position: absolute;
+    left: -20px;
+    top: -230px;
+  }
+  .mb-welcome-details {
+    font-size: 25px;
+    position: relative;
+    top: -100px;
+    left: 10px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 50px;
+    top: -80px
+  }
+
+}
+
+@media only screen and (width: 375px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 380px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:30px;
+    top:480px;
+  }
+  .mb-welcome-text {
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -190px;
+  }
+  .mb-welcome-details {
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+    left: 70px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 50px;
+    top: -80px
+  }
+
+}
+
+
+
+@media only screen and (width: 768px) {
+  .bg-img {
+    height: 100vh;
+       max-width: 768px;
+       background-size: 100px 100px;
+       background-image: url(../../images/hero_bg_1.jpg);
+  }
+  .mb-center-search {
+    position: absolute;
+    left:225px;
+    top:390px;
+  }
+  .mb-welcome-text {
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: -190px;
+  }
+  .mb-welcome-details {
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+    left: 70px;
+  }
+  .mb-search-option {
+    position: relative;
+    left: 50px;
+    top: -80px
+  }
+
+}

@@ -1,0 +1,39 @@
+audio {
+  width: 70vw;
+}
+
+@media only screen and (width: 414px) {
+  audio {
+    width: 70vw;
+  }
+}
+
+@media only screen and (device-width: 412px) {
+  audio {
+    width: 60vw;
+  }
+}
+
+@media only screen and (width: 411px) {
+  audio {
+    width: 70vw;
+  }
+}
+
+@media only screen and (width: 320px) {
+  audio {
+    width: 60vw;
+  }
+}
+
+@media only screen and (width: 375px) {
+  audio {
+    width: 70vw;
+  }
+}
+
+@media only screen and (width: 768px) {
+  audio {
+    width: 60vw;
+  }
+}

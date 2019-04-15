@@ -1,0 +1,308 @@
+.Mycardbody {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 200px;
+  overflow: hidden;
+  width: 1170px;
+}
+
+.myImage {
+  width: 200px;
+  height: 200px;
+
+}
+
+.details {
+  width: 890px;
+  position: relative;
+  word-wrap: break-word;
+  padding: 15px;
+  left: 220px;
+  bottom: 205px;
+}
+
+.play-delete  {
+  position: absolute;
+  left: 890px;
+  top: 170px;
+}
+.delete {
+  position: relative;
+  left: 22px;
+  bottom: 25px;
+}
+
+@media only screen and (device-width: 412px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    min-height: 95vh;
+    width: 300px;
+    position: relative;
+    left: 10px;
+  }
+
+  .mb-myImage {
+    min-width: 300px;
+    height: 400px;
+  }
+
+  #mb-details.mb-details  {
+    height: 10vh;
+    width: 300px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .desc {
+    margin-right: 22px;
+  }
+
+  #mb-play-delete.mb-play-delete  {
+    position: absolute;
+    left: 0px;
+    /* bottom: 150px; */
+    top: -50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 0px;
+    margin-bottom: 9px;
+  }
+  #mb-delete.mb-delete {
+
+    left: 40px;
+    bottom: 45px;
+  }
+}
+
+@media only screen and (width: 411px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    min-height: 85vh;
+    width: 340px;
+    position: relative;
+    left: 0px;
+  }
+
+  .mb-myImage {
+    min-width: 340px;
+    height: 400px;
+  }
+
+  #mb-details.mb-details  {
+    min-height: 50vh;
+    width: 340px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .desc {
+    margin-right: 22px;
+  }
+
+  #mb-play-delete.mb-play-delete  {
+    position: absolute;
+    left: 0px;
+    /* bottom: 150px; */
+    top: -50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 0px;
+    margin-bottom: 9px;
+  }
+  #mb-delete.mb-delete {
+
+    left: 40px;
+    bottom: 45px;
+  }
+}
+
+@media screen and (width: 414px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    min-height: 125vh;
+    width: 240px;
+    position: relative;
+    left: 0px;
+  }
+
+  .mb-myImage {
+    min-width: 240px;
+    height: 400px;
+  }
+
+  #mb-details.mb-details  {
+    min-height: 50vh;
+    width: 240px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+
+  }
+
+  .desc {
+    overflow-y: scroll;
+    font-size: 12px
+  }
+
+  #mb-play-delete.mb-play-delete  {
+    position: absolute;
+    left: 0px;
+    /* bottom: 150px; */
+    top: -50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 0px;
+    margin-bottom: 9px;
+  }
+  #mb-add.mb-add {
+
+    left: 40px;
+    bottom: 45px;
+  }
+}
+
+@media only screen and (width: 320px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    min-height: 125vh;
+    width: 240px;
+    position: relative;
+    left: 0px;
+  }
+
+  .mb-myImage {
+    min-width: 240px;
+    height: 400px;
+  }
+
+  #mb-details.mb-details  {
+    min-height: 50vh;
+    width: 240px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+
+  }
+
+  .desc {
+    overflow-y: scroll;
+    font-size: 12px
+  }
+
+  #mb-play-delete.mb-play-delete  {
+    position: absolute;
+    left: 0px;
+    /* bottom: 150px; */
+    top: -50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 0px;
+    margin-bottom: 9px;
+  }
+  #mb-add.mb-add {
+
+    left: 40px;
+    bottom: 45px;
+  }
+}
+
+@media only screen and (width: 375px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    min-height: 95vh;
+    width: 275px;
+    position: relative;
+    left: 0px;
+  }
+
+  .mb-myImage {
+    min-width: 275px;
+    height: 400px;
+  }
+
+  #mb-details.mb-details  {
+    min-height: 50vh;
+    width: 275px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+
+
+    text-align: center;
+    font-size: 12px
+  }
+
+  .desc {
+
+  }
+
+  #mb-play-add.mb-play-add  {
+    position: absolute;
+    left: 0px;
+    /* bottom: 150px; */
+    top: -50px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 0px;
+    margin-bottom: 9px;
+  }
+  #mb-delete.mb-delete {
+
+    left: 40px;
+    bottom: 45px;
+  }
+}
+
+@media only screen and (width: 768px) {
+  #mb-Mycardbody.mb-Mycardbody {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 200px;
+    overflow: hidden;
+    width: 650px;
+  }
+
+  .myImage {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  #mb-details.mb-details {
+    width: 450px;
+    position: relative;
+    word-wrap: break-word;
+    padding: 10px;
+    left: 205px;
+    bottom: 205px;
+    text-align: left  ;
+  }
+
+  #mb-play-delete.mb-play-delete  {
+    position: absolute;
+    left: -190px;
+    top: 140px;
+    font-size: 40px;
+    color: white;
+  }
+  #mb-delete.mb-delete {
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+  }
+
+}
